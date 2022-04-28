@@ -13,7 +13,7 @@ jobs:
   deploy:
     defaults:
       run:
-        working-directory: website
+        working-directory: ../website
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
