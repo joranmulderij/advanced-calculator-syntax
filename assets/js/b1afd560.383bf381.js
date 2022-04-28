@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[493],{3469:function(a){a.exports=JSON.parse('{"allTagsPath":"/advanced-calculator-syntax/blog/tags","name":"docusaurus","count":4,"permalink":"/advanced-calculator-syntax/blog/tags/docusaurus"}')}}]);

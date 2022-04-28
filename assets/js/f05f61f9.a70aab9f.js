@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[475],{3431:function(a){a.exports=JSON.parse('{"allTagsPath":"/advanced-calculator-syntax/blog/tags","name":"hello","count":2,"permalink":"/advanced-calculator-syntax/blog/tags/hello"}')}}]);
