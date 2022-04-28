@@ -12,14 +12,14 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
+      - name: Navigate to website root
+        run: cd website
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
           node-version: 16.x
           cache: npm
 
-      - name: Navigate to website root
-        run: cd website
       - name: Install dependencies
         run: npm ci
       - name: Build website
