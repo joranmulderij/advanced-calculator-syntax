@@ -25,8 +25,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/joranmulderij/advanced-calculator-syntax/docs/docs',
-          // path: '../docs',
+          editUrl: 'https://github.com/joranmulderij/advanced-calculator-syntax/docs',
+          path: '../docs',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -53,9 +54,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'tutorial/getting-started/installation',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            type: 'doc',
+            docId: 'docs/about',
+            position: 'left',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -82,11 +89,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.gg/GCzr5fe9',
               },
             ],
           },
